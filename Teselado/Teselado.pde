@@ -23,12 +23,12 @@ void draw() {
 
       stroke(0);
  
-      // Arco horizontal mitad del módulo
+      // Arco horizontal --> dentro del módulo
      
       fill(233, 217, 133);
       arc(x + tamMódulo / 2, y + tamMódulo / 2, tamMódulo, tamMódulo / 2, PI, TWO_PI);
      
-     // Arco vertical
+     // Arco vertical --> dentro del módulo
       
       fill(240, 226, 163);
       arc(x + tamMódulo / 2, y + tamMódulo, tamMódulo / 2, tamMódulo, PI, TWO_PI);
